@@ -1,0 +1,354 @@
+:root{
+    
+      --cor-primaria: #1A73E8;
+      --cor-input: #80868B;
+      --cor-borda: #DADCE0;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+ }
+
+body{
+    background-color: rgb(121, 121, 124);
+ 
+ 
+
+
+}
+
+.conteiner{
+
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width: 1000px;
+      height: 800px;
+
+     
+      
+     
+      box-shadow: 0 10px 25px rgba(92,99,105,.2);
+      border-radius:20px;
+      
+  
+      
+
+}  
+/* primeira parte quadrado branco */
+.box{
+
+      display: flex;
+      align-items: center;
+     align-content: center;
+      flex-direction: column;
+      height: 100%;
+      width: 50%;
+      padding: 89px;
+
+     
+      background-color:white;
+      
+      border-radius: 10px 0 0 10px;
+      
+
+}
+
+
+
+a{
+      color: var(--cor-primaria);
+      cursor: pointer;
+      font-weight:bold ;
+}
+.have{
+
+      margin-bottom: 40px;
+}
+      
+  
+
+h1{
+      font-size: 42px;
+      
+}
+
+.para1{
+
+      opacity: 0.6;
+      margin-bottom: 40px;
+}
+
+.email-tag{
+        position: relative;
+
+}
+.email-word{
+      width: 50px;
+      position:absolute;
+      top:-9px;
+      left: 22px; 
+      color: var(--cor-primaria);
+      background-color: white;
+     
+    
+      
+
+      
+
+
+
+}
+input[type="email"]{
+      font-size: 15px;
+        
+      border-style:solid;
+
+      padding: 20px;
+      border-color: var(--cor-primaria);
+      border-radius: 10px;
+      margin-bottom: 40px;
+      width: 300px;
+      height: 50px;
+
+}
+
+.password-tag{
+      position: relative;
+
+}
+.password-word{
+    width: 70px;
+    position:absolute;
+    bottom: 80px ;
+    left: 27px; 
+    color: var(--cor-primaria);
+    background-color: white;
+   
+    
+
+    
+
+
+
+}
+input[type="password"]{
+    font-size: 15px;
+      
+    border-style:solid;
+
+    padding: 20px;
+    border-color: var(--cor-primaria);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 50px;
+}
+
+input[type="submit"]{
+      
+background-color:var(--cor-primaria);
+
+width: 300px;
+height: 50px;
+border-radius: 10px;
+color:white;
+     font-size: 18px;
+     font-weight: bold;
+     cursor: pointer;
+     border:none;
+     margin-bottom: 40px;
+    
+
+
+}
+
+
+.divisor{
+
+
+      position: relative;
+
+}
+
+
+.divisor-word{
+      position: absolute;
+      top:-11px;
+      left: 109px;
+      background-color: white;
+      color: var(--cor-input);
+      margin-bottom: 40px;
+      
+
+}
+
+
+
+hr{
+
+   opacity: 0.7;
+
+
+
+}
+
+.social-media img{
+   
+    
+      width: 50px;
+      margin-top: 40px;
+      margin-left: 40px;
+      cursor: pointer;
+      
+      
+  
+  
+  }
+  
+  /* Segunda parte quadrado Azul */
+
+  .box2{
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: stretch;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      background-color:var(--cor-primaria);
+      height: 100%;
+      width: 50%;
+      padding:100px;
+      background-image:url(../Imagens/fundo\ tela\ desafio.jpg);
+    
+      border-radius: 0 10px 10px 0;
+     
+  }
+
+.aspas{
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+     
+      width: 50px;
+      height: 50px;
+      font-size: 70px;
+      background-color: turquoise;
+      color:var(--cor-primaria);
+      border-radius: 50px;
+      margin-left: 28px;
+
+
+}
+.subtitulo {
+   display: flex;
+   justify-content: center;
+
+   margin-left: 44px;
+   color: white;
+   font-size: 82px;
+   font-weight: bold;
+
+
+
+
+
+}
+
+.text-giant{
+       position:relative;
+       top:63px;
+       left:103px;
+      
+      font-size: 12px;
+       color:white;
+       opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+.vertical{
+     position: absolute;
+     top:150px;
+     left:152px;
+    
+    
+      width: 2px;
+     height: 500px ;
+     background-color: white;
+     opacity: 0.6;
+   
+
+}
+
+.horizontal-line{
+    position: absolute;
+    bottom: 359px;
+    left:152px;
+    width:40px;
+    height: 3px;
+    background-color: white;
+     opacity: 0.6;
+
+
+
+}
+
+
+
+.photo{
+      
+      position:relative;
+      top: 105px ;
+
+      left: 83px;
+}
+
+.photo img{
+     
+
+      width: 60px;
+      height: 60px;
+      border-radius: 25px;
+
+
+}
+
+.names-tags{
+    
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     align-items: flex-start;
+     position: relative;
+     top:58px;
+     left:156px;
+
+}
+
+.name-status{
+
+        
+      color: white;
+      font-weight: bold;
+
+        
+
+}
+
+.status{
+
+      color: white;
+      opacity: 0.6;
+}
